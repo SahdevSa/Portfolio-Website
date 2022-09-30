@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner1.webp") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -365,17 +365,32 @@ section .title::after{
 .skills-content .right .html::before{
     width: 90%;
 }
+.skills-content .right .cpp::before{
+    width: 90%;
+}
 .skills-content .right .css::before{
     width: 60%;
 }
+.skills-content .right .Python::before{
+    width: 70%;
+}
 .skills-content .right .js::before{
+    width: 40%;
+}
+.skills-content .right .perl::before{
+    width: 30%;
+}
+.skills-content .right .java::before{
+    width: 40%;
+}
+.skills-content .right .C::before{
     width: 80%;
 }
-.skills-content .right .php::before{
+.skills-content .right .mysql::before{
     width: 50%;
 }
-.skills-content .right .mysql::before{
-    width: 70%;
+.skills-content .right .reactjs::before{
+    width: 50%;
 }
 
 /* teams section styling */
